@@ -24,23 +24,7 @@ import java.util.*;
  **/
 public class BoardDisembarkSim {
 
-    public static void myHeader(int questionNumber) {
-        System.out.println("=======================================================\n" +
-                "Lab Exercise " + questionNumber +
-                "\nPrepared By: Nathan Shang\nStudent Number: 251285463" +
-                "\nGoal of this Exercise: An application that simulates boarding and disembarking a plane" +
-                "that utilizes a linear data structure"+
-                "\n=======================================================");
-    }//static header method
-    public static void myFooter(int questionNumber) {
-        System.out.println("\n=======================================================\n" +
-                "Completion of Lab Exercise " + questionNumber
-                + " is successful.\nSigning off- Nathan "
-                + "\n=======================================================");
-    }//static footer method
     public static void main(String[] args) {
-
-        myHeader(5);
 
         Scanner keyboard = new Scanner(System.in);
         int user;
@@ -98,7 +82,5 @@ public class BoardDisembarkSim {
         }
         while (user != 3);
 
-
-        myFooter(5);
     }
 }
